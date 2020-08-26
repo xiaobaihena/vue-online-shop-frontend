@@ -2,6 +2,7 @@ import Vue from "vue";
 import VueRouter from "vue-router";
 import Home from "@/views/Home";
 import Cart from "@/views/Cart";
+import Detail from "@/views/Detail";
 
 //Admin
 import Index from "@/views/admin/Index";
@@ -43,6 +44,11 @@ const routes = [
     path: "/cart",
     name: "Cart",
     component: Cart
+  },
+  {
+    path: '/detail/:id',
+    name: 'Detail',
+    component: Detail,
   }
 ];
 

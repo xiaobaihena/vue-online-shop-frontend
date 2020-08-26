@@ -21,7 +21,7 @@ export default {
         {
           _id: 'apple',
           name: 'Apple',
-        },
+        }, 
       ],
     };
   },
